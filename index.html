@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Myntra Login Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">M</div>
+
+        <nav class="nav-links">
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+            <a href="#">KIDS</a>
+            <a href="#">HOME LIVING</a>
+            <a href="#">STUDIO</a>
+        </nav>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+        </div>
+
+        <div class="nav-icons">
+            <span>Wishlist</span>
+            <span>Bag</span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="login-card">
+
+            <!-- Offer Banner -->
+            <div class="offer-banner">
+                <div class="offer-text">
+                    <h2>UP TO ₹200 OFF</h2>
+                    <p>On your 1st purchase</p>
+                    <span class="code">Code: MYNTRASAVE</span>
+                </div>
+            </div>
+
+            <!-- Login Section -->
+            <div class="login-section">
+                <h3>Login or Signup</h3>
+
+                <div class="input-group">
+                    <span class="prefix">+91</span>
+                    <input type="text" id="mobile" placeholder="Mobile Number">
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">
+                        By continuing, I agree to the
+                        <a href="#">Terms of Use</a> &
+                        <a href="#">Privacy Policy</a>
+                        and I am above 18 years old.
+                    </label>
+                </div>
+
+                <button id="continueBtn" disabled>CONTINUE</button>
+
+                <p class="help-text">
+                    Have trouble logging in? <a href="#">Get help</a>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
