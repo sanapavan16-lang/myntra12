@@ -1,0 +1,23 @@
+const mobileInput = document.getElementById("mobile");
+const agreeCheckbox = document.getElementById("agree");
+const continueBtn = document.getElementById("continueBtn");
+
+function validateForm() {
+    const mobileValid = /^[6-9]\d{9}$/.test(mobileInput.value);
+    const agreed = agreeCheckbox.checked;
+
+    if (mobileValid && agreed) {
+        continueBtn.disabled = false;
+        continueBtn.classList.add("active");
+    } else {
+        continueBtn.disabled = true;
+        continueBtn.classList.remove("active");
+    }
+}
+
+mobileInput.addEventListener("input", validateForm);
+agreeCheckbox.addEventListener("change", validateForm);
+
+continueBtn.addEventListener("click", () => {
+    alert("OTP Sent to " + mobileInput.value);
+});
