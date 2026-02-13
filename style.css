@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #f8e6e6, #f3e0d2);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff3f6c;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.search-bar input {
+    width: 350px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.nav-icons span {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.login-card {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Offer Banner */
+.offer-banner {
+    background: linear-gradient(to right, #ffd5d5, #ffe6d5);
+    padding: 20px;
+    text-align: left;
+}
+
+.offer-banner h2 {
+    color: #ff3f6c;
+    margin-bottom: 5px;
+}
+
+.offer-banner p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.code {
+    background: #ff3f6c;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+/* Login Section */
+.login-section {
+    padding: 25px;
+}
+
+.login-section h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.input-group {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.prefix {
+    background: #f5f5f5;
+    padding: 10px;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Terms */
+.terms {
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 8px;
+}
+
+.terms a {
+    color: #ff3f6c;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ccc;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: not-allowed;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button.active {
+    background: #ff3f6c;
+    cursor: pointer;
+}
+
+.help-text {
+    font-size: 13px;
+    text-align: center;
+}
+
+.help-text a {
+    color: #ff3f6c;
+    text-decoration: none;
+}
